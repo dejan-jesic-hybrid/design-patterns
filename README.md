@@ -8,7 +8,7 @@ independently from clients that use it
 - ***Change*** is the only thing that is constant always and everywhere
 - Take what varies and "encapsulate" it so it won't affect the rest of 
 your code
-- [Code](design-patterns/src/main/java/strategy/pattern/App.java)
+- [Code](src/main/java/strategy/pattern/App.java)
 
 ## Observer
 
