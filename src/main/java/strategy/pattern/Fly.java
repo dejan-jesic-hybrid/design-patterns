@@ -1,6 +1,6 @@
 package strategy.pattern;
 
-interface FlyBehavior {
+interface Fly {
 
 	void fly();
 

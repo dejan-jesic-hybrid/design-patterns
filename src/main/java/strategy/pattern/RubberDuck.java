@@ -3,8 +3,8 @@ package strategy.pattern;
 class RubberDuck extends Duck {
 
 	RubberDuck() {
-		super.flyBehavior = new NoFly();
-		super.quackBehavior = new QuackSilently();
+		super.fly = new NoFly();
+		super.quack = new QuackSilently();
 	}
 
 	@Override

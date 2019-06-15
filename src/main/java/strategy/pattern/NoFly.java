@@ -1,6 +1,6 @@
 package strategy.pattern;
 
-public class NoFly implements FlyBehavior {
+public class NoFly implements Fly {
 
 	@Override
 	public void fly() {

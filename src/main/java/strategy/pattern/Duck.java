@@ -2,16 +2,16 @@ package strategy.pattern;
 
 abstract class Duck {
 
-	FlyBehavior flyBehavior;
+	Fly fly;
 
-	QuackBehavior quackBehavior;
+	Quack quack;
 
 	void doFly() {
-		flyBehavior.fly();
+		fly.fly();
 	}
 
 	void doQuack() {
-		quackBehavior.quack();
+		quack.quack();
 	}
 
 	abstract void display();

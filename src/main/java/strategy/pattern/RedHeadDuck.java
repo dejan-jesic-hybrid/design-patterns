@@ -3,8 +3,8 @@ package strategy.pattern;
 class RedHeadDuck extends Duck {
 
 	RedHeadDuck() {
-		super.flyBehavior = new FlyFast();
-		super.quackBehavior = new QuackSilently();
+		super.fly = new FlyFast();
+		super.quack = new QuackSilently();
 	}
 
 	@Override

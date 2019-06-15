@@ -5,17 +5,17 @@ import java.util.List;
 class App {
 
 	public static void main(String[] args) {
-		List<Duck> ducks = List.of(
+		final List<Duck> ducks = List.of(
 			new MallardDuck(),
 			new RedHeadDuck(),
 			new RubberDuck(),
 			new WoodenDuck()
 		);
 
-		ducks.forEach(App::goDuckGo);
+		ducks.forEach(App::goDuck);
 	}
 
-	private static void goDuckGo(Duck duck) {
+	private static void goDuck(Duck duck) {
 		System.out.println("- - - - - - - - - - - - - - - - - - -");
 		duck.display();
 		duck.swim();

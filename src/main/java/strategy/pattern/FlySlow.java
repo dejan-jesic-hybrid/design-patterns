@@ -1,6 +1,6 @@
 package strategy.pattern;
 
-class FlySlow implements FlyBehavior {
+class FlySlow implements Fly {
 
 	@Override
 	public void fly() {

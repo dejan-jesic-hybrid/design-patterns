@@ -3,8 +3,8 @@ package strategy.pattern;
 class MallardDuck extends Duck {
 
 	MallardDuck() {
-		super.flyBehavior = new FlySlow();
-		super.quackBehavior = new QuackLoud();
+		super.fly = new FlySlow();
+		super.quack = new QuackLoud();
 	}
 
 	@Override

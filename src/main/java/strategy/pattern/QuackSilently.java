@@ -1,6 +1,6 @@
 package strategy.pattern;
 
-class QuackSilently implements QuackBehavior {
+class QuackSilently implements Quack {
 
 	@Override
 	public void quack() {

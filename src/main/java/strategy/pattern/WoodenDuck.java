@@ -3,8 +3,8 @@ package strategy.pattern;
 class WoodenDuck extends Duck {
 
 	WoodenDuck() {
-		super.flyBehavior = new NoFly();
-		super.quackBehavior = new QuackMute();
+		super.fly = new NoFly();
+		super.quack = new QuackMute();
 	}
 
 	@Override

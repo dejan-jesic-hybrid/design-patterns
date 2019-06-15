@@ -1,6 +1,6 @@
 package strategy.pattern;
 
-interface QuackBehavior {
+interface Quack {
 
 	void quack();
 
