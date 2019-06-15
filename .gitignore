@@ -9,3 +9,5 @@ out/
 bin/
 log/
 .DS_Store
+gradle/
+gradlew.bat
