@@ -33,6 +33,14 @@ delegating to the object it decorates to do the rest of the job
 dynamically at runtime with as many decorators as we like
 - [Code](src/main/java/decorator/pattern/App.java)
 
+## Factory
+- The ***factory method pattern*** defines an interface for creating an 
+object, but lets subclasses decide which class to instantiate. Factory
+method lets a class defer instantiation to subclasses  
+- Pattern gives us a way to encapsulate the instantiation of concrete 
+type
+- [Code](src/main/java/factory/pattern/App.java)
+
 ## Design principles
 
 - Identify the aspects of your application that vary and separate from 
@@ -41,3 +49,8 @@ what stays the same
 - Favor composition over inheritance
 - Strive for loosely coupled designs between objects that interact
 - Classes should be open for extension but closed for modification
+- Depend upon abstraction. Do not depend upon concrete classes
+    - No variable should hold a reference to concrete class
+    - No class should derive from a concrete class
+    - No method should override an implemented method of any of its base 
+    classes
