@@ -41,6 +41,14 @@ method lets a class defer instantiation to subclasses
 type
 - [Code](src/main/java/factory/pattern/App.java)
 
+## Singleton
+- The ***singleton pattern*** ensures a class has only one instance, 
+and provides a global point access to it
+- Synchronizing a method can decrease performance by a factor of 100,
+so if a high traffic part of your code begins using `getInstance()`, you
+may have to reconsider using eager initialization of singleton
+- [Code](src/main/java/singleton/pattern/App.java)    
+
 ## Design principles
 
 - Identify the aspects of your application that vary and separate from 
