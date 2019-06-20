@@ -4,11 +4,11 @@ class App {
 
 	public static void main(String[] args) {
 		System.out.println("= = = = = = = = =");
-		final SingletonThreadSafe threadSafe = SingletonThreadSafe.getInstance();
-		threadSafe.log();
+		final SingletonThreadSafe threadSafeSingleton = SingletonThreadSafe.getInstance();
+		threadSafeSingleton.log();
 
-		final SingletonEagerInitialization eagerInitialization = SingletonEagerInitialization.getInstance();
-		eagerInitialization.log();
+		final SingletonEagerInitialization eagerInitializedSingleton = SingletonEagerInitialization.getInstance();
+		eagerInitializedSingleton.log();
 
 		final SingletonBillPughPattern billPughPattern = SingletonBillPughPattern.getInstance();
 		billPughPattern.log();

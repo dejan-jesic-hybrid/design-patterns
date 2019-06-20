@@ -47,7 +47,18 @@ and provides a global point access to it
 - Synchronizing a method can decrease performance by a factor of 100,
 so if a high traffic part of your code begins using `getInstance()`, you
 may have to reconsider using eager initialization of singleton
-- [Code](src/main/java/singleton/pattern/App.java)    
+- [Code](src/main/java/singleton/pattern/App.java)
+
+## Command
+- The ***command pattern*** encapsulates a request as an object, thereby
+letting you parametrize other objects with different requests, queue or 
+log requests, and support undoable operations
+- [NoCommand](src/main/java/command/pattern/NoCommand.java) object is
+an example of a *null object*. A null object is useful when you don't 
+have a meaningful object to return, adn yet you want to remove the 
+responsibility for handling **null** from client
+- Command give is a way to package a piece of computation and pass it 
+around as a first-class object.
 
 ## Design principles
 

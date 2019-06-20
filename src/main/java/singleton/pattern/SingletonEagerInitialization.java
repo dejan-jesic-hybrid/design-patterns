@@ -1,6 +1,6 @@
 package singleton.pattern;
 
-class SingletonEagerInitialization {
+final class SingletonEagerInitialization {
 
 	private static SingletonEagerInitialization instance = new SingletonEagerInitialization();
 

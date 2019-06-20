@@ -1,6 +1,6 @@
 package singleton.pattern;
 
-class SingletonBillPughPattern {
+final class SingletonBillPughPattern {
 
 	private SingletonBillPughPattern() {
 
