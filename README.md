@@ -58,7 +58,16 @@ an example of a *null object*. A null object is useful when you don't
 have a meaningful object to return, adn yet you want to remove the 
 responsibility for handling **null** from client
 - Command give is a way to package a piece of computation and pass it 
-around as a first-class object.
+around as a first-class object
+
+## Adapter
+- The ***adapter pattern*** converts the interface of the class into 
+another interface the clients expect. Adapter lets class work together 
+that couldn't otherwise because of incompatible interfaces
+- [Code](src/main/java/adapter/pattern/App.java)
+
+## Facade
+- The ***facade pattern***  
 
 ## Design principles
 
