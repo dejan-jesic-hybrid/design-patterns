@@ -67,7 +67,11 @@ that couldn't otherwise because of incompatible interfaces
 - [Code](src/main/java/adapter/App.java)
 
 ## Template method
-- The ***template method pattern*** 
+- The ***template method pattern*** defines the skeleton of an algorithm 
+in a method, deferring some steps to subclasses.Template method lets 
+subclasses redefine certain steps of an algorithm without changing the
+algorithm's structure
+- [Code](src/main/java/template_method/App.java)
 
 ## Design principles
 
