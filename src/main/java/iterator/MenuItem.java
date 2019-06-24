@@ -3,11 +3,8 @@ package iterator;
 class MenuItem {
 
 	private String name;
-
 	private String description;
-
 	private boolean isVegan;
-
 	private double price;
 
 	MenuItem(final String name, final String description, final boolean isVegan, final double price) {

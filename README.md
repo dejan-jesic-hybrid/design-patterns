@@ -79,6 +79,16 @@ an aggregate object sequentially without exposing its underlying
 representation 
 - [Code](src/main/java/iterator/App.java)
 
+## Composite
+- The ***composite pattern*** allows you to compose objects into tree 
+structures to represent part-whole hierarchies. Composite lets clients 
+treat individual objects and compositions of objects uniformly
+- Using composite structure we can apply the same operations over both 
+composites and individual objects. In other words, in most cases we can 
+ignore the difference between compositions of objects and individual 
+objects
+- [Code](src/main/java/composite/App.java)
+
 ## Design principles
 
 - Identify the aspects of your application that vary and separate from 
