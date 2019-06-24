@@ -3,7 +3,7 @@ package adapter;
 class App {
 
 	public static void main(String[] args) {
-		System.err.println("- - - - - - - - - - - - - - - ");
+		System.out.println("- - - - - - - - - - - - - - - - - - -");
 
 		Turkey wildTurkey = new WildTurkey();
 
@@ -12,7 +12,7 @@ class App {
 		turkeyAdapter.quack();
 		turkeyAdapter.fly();
 
-		System.err.println("- - - - - - - - - - - - - - - ");
+		System.out.println("- - - - - - - - - - - - - - - - - - -");
 	}
 
 }

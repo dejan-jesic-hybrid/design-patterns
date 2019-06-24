@@ -3,7 +3,7 @@ package decorator;
 public class App {
 
 	public static void main(String[] args) {
-		System.out.println("- - - - - - - - - - - - -");
+		System.out.println("- - - - - - - - - - - - - - - - - - -");
 
 		final Beverage espresso = new Espresso();
 		final Beverage soda = new Soda();
@@ -17,7 +17,7 @@ public class App {
 		final Beverage mocha = new Chocolate(new Milk(new Espresso()));
 		System.out.println(mocha.getDescription() + "\nPrice: $" + mocha.cost());
 
-		System.out.println("- - - - - - - - - - - - -");
+		System.out.println("- - - - - - - - - - - - - - - - - - -");
 	}
 
 }
