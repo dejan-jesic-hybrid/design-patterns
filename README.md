@@ -73,6 +73,12 @@ subclasses redefine certain steps of an algorithm without changing the
 algorithm's structure
 - [Code](src/main/java/template_method/App.java)
 
+## Iterator
+- The ***iterator pattern*** provides a way to access the elements of
+an aggregate object sequentially without exposing its underlying 
+representation 
+- [Code](src/main/java/iterator/App.java)
+
 ## Design principles
 
 - Identify the aspects of your application that vary and separate from 
@@ -86,3 +92,4 @@ what stays the same
     - No class should derive from a concrete class
     - No method should override an implemented method of any of its base 
     classes
+- A class should have only one reason to change
